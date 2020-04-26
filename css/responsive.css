@@ -1,9 +1,35 @@
 /* TABLET */
 @media all and (max-width: 1000px) {
-
+  .team {
+	display: inline-block;
+  }
+  
+  .team-content {
+	width: 100%;
+  }
 }
 
 /* SMARTPHONE */
 @media all and (max-width: 670px) {
-  
+  .team {
+	width: 100%;
+	display: inline-block;
+    }
+   
+   .team-content p {
+	font-size: 15px;
+	width: 100%;
+	font-weight: block;
+	color: #7B68EE;
+	text-align: left;
+    }
+   
+   .team-content {
+	width: 100%;
+   }
+   
+   .contact img{
+    width: 10%;
+    opacity: 0.8;
+   }
 }
